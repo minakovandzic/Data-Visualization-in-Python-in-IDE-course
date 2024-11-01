@@ -1,0 +1,41 @@
+type: edu
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 187
+        length: 27
+        placeholder_text: "# TODO set plot size"
+        dependency:
+          lesson: Visualizing Data with Seaborn
+          task: Plotting Environment
+          file: main.py
+          placeholder: 1
+        is_visible: false
+      - offset: 241
+        length: 27
+        placeholder_text: "# TODO define order of selected platforms"
+      - offset: 291
+        length: 30
+        placeholder_text: "# TODO sort genres"
+      - offset: 379
+        length: 48
+        placeholder_text: "# TODO add order of platforms and hue_order of genres"
+      - offset: 434
+        length: 10
+        placeholder_text: "# TODO show plot"
+        dependency:
+          lesson: Visualizing Data with Seaborn
+          task: Plotting Environment
+          file: main.py
+          placeholder: 3
+        is_visible: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

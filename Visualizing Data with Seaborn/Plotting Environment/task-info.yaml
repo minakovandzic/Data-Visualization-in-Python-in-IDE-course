@@ -1,0 +1,23 @@
+type: edu
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 187
+        length: 27
+        placeholder_text: "# TODO set plot size"
+      - offset: 220
+        length: 51
+        placeholder_text: "# TODO plot data based on platform"
+      - offset: 277
+        length: 10
+        placeholder_text: "# TODO show plot"
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

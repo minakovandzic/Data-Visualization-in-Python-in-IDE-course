@@ -1,0 +1,48 @@
+type: edu
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 187
+        length: 27
+        placeholder_text: "# TODO set plot size"
+        dependency:
+          lesson: Visualizing Data with Seaborn
+          task: Data Arrangement
+          file: main.py
+          placeholder: 1
+        is_visible: false
+      - offset: 220
+        length: 31
+        placeholder_text: "# TODO set plot palette theme"
+      - offset: 278
+        length: 27
+        placeholder_text: "# TODO define order of selected platforms"
+        dependency:
+          lesson: Visualizing Data with Seaborn
+          task: Data Arrangement
+          file: main.py
+          placeholder: 2
+        is_visible: false
+      - offset: 480
+        length: 69
+        placeholder_text: "# TODO add legend containing title and location outside of\
+      \ the plot"
+      - offset: 555
+        length: 41
+        placeholder_text: "# TODO set legend background"
+      - offset: 602
+        length: 40
+        placeholder_text: "# TODO remove legend border"
+      - offset: 648
+        length: 18
+        placeholder_text: "# TODO ensure tight layout"
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

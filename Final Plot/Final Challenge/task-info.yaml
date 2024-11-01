@@ -1,0 +1,47 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 112
+        length: 17
+        placeholder_text: "# TODO load csv file into data_file"
+      - offset: 187
+        length: 27
+        placeholder_text: "# TODO define plot size"
+      - offset: 220
+        length: 31
+        placeholder_text: "# TODO set plot theme"
+      - offset: 278
+        length: 27
+        placeholder_text: "# TODO define order of platforms"
+      - offset: 328
+        length: 30
+        placeholder_text: "# TODO sort genres"
+      - offset: 364
+        length: 101
+        placeholder_text: "# TODO use Seaborn plot function"
+      - offset: 480
+        length: 69
+        placeholder_text: "# TODO define title and location of legend"
+      - offset: 555
+        length: 41
+        placeholder_text: "# TODO set legend background"
+      - offset: 602
+        length: 40
+        placeholder_text: "# TODO remove legend border"
+      - offset: 648
+        length: 18
+        placeholder_text: "# TODO ensure tight layout"
+      - offset: 672
+        length: 10
+        placeholder_text: "# TODO show plot"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

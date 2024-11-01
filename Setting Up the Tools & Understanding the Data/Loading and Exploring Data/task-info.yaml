@@ -1,0 +1,23 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 59
+        length: 17
+        placeholder_text: "# TODO load data file from provided path"
+      - offset: 318
+        length: 14
+        placeholder_text: "# TODO print first 5 rows of dataset"
+      - offset: 345
+        length: 14
+        placeholder_text: "# TODO print dataset information"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

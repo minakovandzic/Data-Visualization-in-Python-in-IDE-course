@@ -1,0 +1,16 @@
+type: marketplace
+title: Data Visualization in Python in-IDE course
+language: English
+summary: "In this lesson, we introduce Seaborn and Matplotlib as two essential Python\
+  \ libraries for designing data visualizations. The goal is to enhance skills in\
+  \ visual storytelling by learning how to effectively represent complex data. \n\n\
+  Seaborn's intuitive interface simplifies the process of making attractive plots,\
+  \ while Matplotlib offers extensive customization options for refining those visualizations.\
+  \ With both libraries, it is possible to transform raw data into visually engaging\
+  \ plots that improve data interpretation as well as communication skills."
+programming_language: Python
+environment: unittest
+content:
+  - Setting Up the Tools & Understanding the Data
+  - Visualizing Data with Seaborn
+  - Final Plot
